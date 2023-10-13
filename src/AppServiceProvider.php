@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\Notifications;
+namespace LaravelLiberu\Notifications;
 
 use Illuminate\Support\ServiceProvider;
 

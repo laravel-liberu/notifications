@@ -1,12 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use LaravelEnso\Notifications\Http\Controllers\Count;
-use LaravelEnso\Notifications\Http\Controllers\Destroy;
-use LaravelEnso\Notifications\Http\Controllers\DestroyAll;
-use LaravelEnso\Notifications\Http\Controllers\Index;
-use LaravelEnso\Notifications\Http\Controllers\Read;
-use LaravelEnso\Notifications\Http\Controllers\ReadAll;
+use LaravelLiberu\Notifications\Http\Controllers\Count;
+use LaravelLiberu\Notifications\Http\Controllers\Destroy;
+use LaravelLiberu\Notifications\Http\Controllers\DestroyAll;
+use LaravelLiberu\Notifications\Http\Controllers\Index;
+use LaravelLiberu\Notifications\Http\Controllers\Read;
+use LaravelLiberu\Notifications\Http\Controllers\ReadAll;
 
 Route::middleware(['api', 'auth', 'core'])
     ->prefix('api/core/notifications')

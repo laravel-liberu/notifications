@@ -1,6 +1,6 @@
 {
     "name": "laravel-liberu/notifications",
-    "description": "Push notifications dependency for LaravelEnso",
+    "description": "Push notifications dependency for LaravelLiberu",
     "keywords": [
         "laravel-liberu",
         "notifications",
@@ -25,14 +25,14 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\Notifications\\": "src/"
+            "LaravelLiberu\\Notifications\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "LaravelEnso\\Notifications\\AppServiceProvider",
-                "LaravelEnso\\Notifications\\BroadcastServiceProvider"
+                "LaravelLiberu\\Notifications\\AppServiceProvider",
+                "LaravelLiberu\\Notifications\\BroadcastServiceProvider"
             ],
             "aliases": {}
         }
